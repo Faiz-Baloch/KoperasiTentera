@@ -1,0 +1,15 @@
+﻿using Microsoft.AspNetCore.Http;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KoperasiTentera.Service.DTOs.Registration
+{
+    public class VerifyFaceUploadRequest
+    {
+        public Guid RegistrationId { get; set; }
+        public IFormFile FaceImage { get; set; } = default!;
+    }
+}

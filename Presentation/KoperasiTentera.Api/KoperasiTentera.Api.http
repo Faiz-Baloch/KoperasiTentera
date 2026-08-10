@@ -1,0 +1,6 @@
+@KoperasiTentera.Api_HostAddress = http://localhost:5144
+
+GET {{KoperasiTentera.Api_HostAddress}}/Swagger/Index.html
+Accept: application/json
+
+###
